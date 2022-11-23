@@ -1,27 +1,31 @@
-## Install & Test
+## Get Started
+
+Make sure you have the Bit CLI (`bit -v`) if not [get it here](https://www.npmjs.com/package/bit-cli)
+
+### Public 
 
 1. Clone a blank Create React App repository and install dependencies. Why? because if our components work on a fresh CRA install, but they don't work in another react application, then it's not a problem with the components, it's a problem with the other app.
 
 ```bash
-git clone https://github.com/listingslab-software/bit.git bit-test
-cd bit-test
+git clone https://github.com/listingslab-software/bit.git my-bit-test
+cd ./create-react-app/my-bit-test
 npm i
 npm start
 ```
-The app will open on http://localhost:3000
+The app opens on http://localhost:3000
 
-2. Stay in the repository, we will now install a private package called `milky-lacks-toes.atrackt` containing our bomber TS components
+1. Install teambit's package _@teambit/bvm_ to the project 
+`npx @teambit/bvm install` 
+> Updata periodically with `npx @teambit/bvm upgrade` 
 
-- Make sure we have Bit CLI installed, if not [get it here](https://www.npmjs.com/package/bit-cli)
-- Install teambit's package to the project 
+2. Install a public bit package from listingslab
 
-    `npx @teambit/bvm install`
+3. Import a component from the package and render it in the app
 
-- Run the following to update Bit to the latest version:
 
-    `npx @teambit/bvm upgrade`
+### Private 
 
-- Bit is going to take care of the privacy issue. When we run the next step, we need the CLI to be logged in with an account which has access to the package. Otherwise it ain't gonna work
+Bit is going to take care of the privacy issue. When we run the next step, we need the CLI to be logged in with an account which has access to the package. Otherwise it ain't gonna work
 
 ```bash
 > bit logout
@@ -34,3 +38,6 @@ successfully added @bit as a scoped registry at /Users/dt9/.npmrc
 success! logged in as milky-lacks-toes
 > 
 ```
+
+3. Install a private bit package called `milky-lacks-toes.atrackt` from listingslab
+4. Install a private bit package from elsewhere
