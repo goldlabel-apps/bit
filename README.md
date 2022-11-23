@@ -34,7 +34,17 @@ The app will open on http://localhost:3000
 
 - Bit is going to take care of the privacy issue. When we run the next step, we need the CLI to be logged in with an account which has access to the package. Otherwise it ain't gonna work
 
-    `bit logout && bit login`
+```bash
+> bit logout
+logged out successfully.
+> bit login 
+⢀⠀ running command "login"...Your browser has been opened to visit:
+https://bit.cloud/bit-login?port=8085&clientId=62f94cb8-22c5-41ca-9668-6a94c58166c8&responseType=token&deviceName=Chriss-MacBook-Air.local&os=darwin
+
+successfully added @bit as a scoped registry at /Users/dt9/.npmrc
+success! logged in as milky-lacks-toes
+> 
+```
   
 ## Workspaces
 
@@ -42,6 +52,10 @@ Start a new workspace using one of Bit's starters. For example, the following cr
 
 ```bash
 bit new react tasks-workspace --default-scope my-org.tasks-scope
+
+bit new react tasks-workspace --default-scope milky-lacks-toes.atrackt
+
+
 ```
 
 #### Notes
