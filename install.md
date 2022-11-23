@@ -1,4 +1,4 @@
-## Install & Test
+## Get Started
 
 Make sure you have the Bit CLI (`bit -v`) if not [get it here](https://www.npmjs.com/package/bit-cli)
 
@@ -20,10 +20,12 @@ The app opens on http://localhost:3000
 
 2. Install a public bit package from listingslab
 
-3. Import 
+3. Import a component from the package and render it in the app
 
 
 ### Private 
+
+Bit is going to take care of the privacy issue. When we run the next step, we need the CLI to be logged in with an account which has access to the package. Otherwise it ain't gonna work
 
 ```bash
 > bit logout
@@ -37,11 +39,5 @@ success! logged in as milky-lacks-toes
 > 
 ```
 
-
 3. Install a private bit package called `milky-lacks-toes.atrackt` from listingslab
-
 4. Install a private bit package from elsewhere
-
-5. Now install a private package  containing our bomber TS components
-
-- Bit is going to take care of the privacy issue. When we run the next step, we need the CLI to be logged in with an account which has access to the package. Otherwise it ain't gonna work
