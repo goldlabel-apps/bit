@@ -47,4 +47,4 @@ bit new react tasks-workspace --default-scope my-org.tasks-scope
 #### Notes
 
 bit packages are namespaced like... `org.scope`
-So for dev pursposes we have got milky-lacks-toes.atrackt
+So for dev pursposes we have got *milky-lacks-toes.atrackt*
