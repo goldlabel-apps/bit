@@ -8,7 +8,7 @@ Make sure you have the Bit CLI (`bit -v`) if not [get it here](https://www.npmjs
 
 ```bash
 git clone https://github.com/listingslab-software/bit.git my-bit-test
-cd ./create-react-app/my-bit-test
+cd my-bit-test/create-react-app
 npm i
 npm start
 ```
@@ -41,3 +41,11 @@ success! logged in as milky-lacks-toes
 
 3. Install a private bit package called `milky-lacks-toes.atrackt` from listingslab
 4. Install a private bit package from elsewhere
+
+Next.... the workspace
+
+```bash
+bit new react bit-listingslab-public --default-scope listingslab.public
+cd bit-listingslab-public
+bit start
+```
