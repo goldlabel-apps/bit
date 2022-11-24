@@ -1,5 +1,6 @@
 {
-  "name": "my-app",
+  "name": "my-bit-test",
+  "description": "Create React App with TypeScript & @redux-toolkit",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
