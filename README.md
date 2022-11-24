@@ -1,5 +1,5 @@
 # Bit
 
-[Get started](./install.md)
+[Get Started](./docs/start.md)
 
-# ![Bit](./docs/use_bit.png) Bit
+![Bit](./docs/png/use_scope.png)

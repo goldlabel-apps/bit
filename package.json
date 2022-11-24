@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "[Get started](./install.md)",
   "scripts": {
-    "start": "clear && cd ./my-bit-test && npm start"
+    "start": "clear && cd ./my-bit-test && npm start",
+    "build": "clear && cd ./my-bit-test && npm run build",
+    "deploy": "clear && npm run build && firebase deploy"
   },
   "repository": {
     "type": "git",

@@ -1,4 +1,4 @@
-## Get Started
+## Start
 
 Make sure you have the Bit CLI (`bit -v`) if not [get it here](https://www.npmjs.com/package/bit-cli)
 
